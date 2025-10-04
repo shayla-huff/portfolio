@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './header';
-import Intro from './intro';
-import WorkList from './worklist';
-import Footer from './footer';  
+import Header from './Header';
+import Intro from './Intro';
+import WorkList from './WorkList';
+import Footer from './Footer';
+import ContactForm from './ContactForm';
 import './App.css';
-import ContactForm from './contactform';
+
 
 const About = () => (
   <section>
@@ -31,7 +32,7 @@ const App = () => {
             <>
               <Intro />
               <WorkList />
-              <Footer />
+
             </>
             }
           />
