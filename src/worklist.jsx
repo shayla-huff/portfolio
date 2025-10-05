@@ -1,9 +1,10 @@
+import placeholder from './assets/placeholder.svg';
 import WorkItems from './WorkItems';
 
 const WorkList = () => {
     const workItems = [
-        { id: 1, title: 'Ferris Bueller Poster', image: one.jpg },
-        { id: 2, title: 'Independent Study', image: two.jpg },
+        { id: 1, title: 'Ferris Bueller Poster', image: placeholder },
+        { id: 2, title: 'Independent Study', image: placeholder },
     ];
 
     return (

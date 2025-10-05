@@ -2,7 +2,8 @@ import { useState } from 'react';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
-        name: '',
+        firstname: '',
+        lastname: '',
         email: '',
         message: ''
     });
