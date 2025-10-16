@@ -4,7 +4,7 @@ import Intro from './Intro';
 import WorkList from './WorkList';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
-import './App.css';
+import styles from './App.css';
 
 
 const About = () => (
