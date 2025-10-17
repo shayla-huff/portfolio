@@ -12,6 +12,10 @@ html, body {
   line-height: 1.6;
 }
 
+body {
+  padding-top: 70px; /* to offset fixed header */
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -21,9 +25,12 @@ a {
 header {
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   background: #fff;
   z-index: 1000;
   padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -40,6 +47,14 @@ nav ul li a {
 
 nav ul li a:hover {
   color: #555;
+}
+
+section.page {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: white;
+  text-align: center;
+  padding: 8rem 2rem;
 }
 
 /* Intro */

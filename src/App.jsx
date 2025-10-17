@@ -8,14 +8,14 @@ import './App.css';
 
 
 const About = () => (
-  <section>
+  <section className="page about">
     <h2>About</h2>
     <p>Blah blah blah stuff about myself :P</p>
   </section>
 );
 
 const Contact = () => (
-  <section>
+  <section className="page contact">
     <h2>Contact</h2>
       <div>
         <ContactForm />
