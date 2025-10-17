@@ -8,7 +8,7 @@ const WorkList = () => {
     ];
 
     return (
-        <section>
+        <section className="work">
             <h2>Work</h2>
             <div className="work-grid">
                 {workItems.map(work => (
