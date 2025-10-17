@@ -94,16 +94,20 @@ section {
 }
 
 .work-item {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   transition: transform 0.3s ease;
 }
 
 .workitem img {
   width: 100%;
-  max-width: 400px;
+  max-width: 400px;     /* limits image size */
   height: auto;
   border-radius: 10px;
-  margin: 0 auto;
+  object-fit: cover;    /* ensures consistent crop */
+  transition: transform 0.4s ease;
+  margin: 0 auto;       /* centers inside grid cell */
   display: block;
 }
 
