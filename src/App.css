@@ -10,6 +10,18 @@ html, body {
   color: #111;
   background-color: #f4f4f4;
   line-height: 1.6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section, header, footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 a {
@@ -87,10 +99,12 @@ section {
 }
 
 .work-grid {
+  width: 100%;
+  max-width: 1000px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
-  margin-top: 2rem;
+  margin: 0 auto;
 }
 
 .work-item {
@@ -165,6 +179,11 @@ button[type="submit"] {
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
+}
+
+section h2, section p, form {
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* Footer */
