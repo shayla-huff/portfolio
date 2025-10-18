@@ -57,6 +57,18 @@ section.page {
   padding: 8rem 2rem;
 }
 
+section.page h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section.page p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+}
+
 /* Intro */
 section.intro {
   width: 100%;
@@ -105,10 +117,8 @@ section {
 
 section.work {
   width: 100vw;
-  background-color: #f8f8f8; /* optional contrast color */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-left: calc(-50vw + 50%);
+  background-color: #f8f8f8;
   padding: 6rem 0;
   text-align: center; 
 }
@@ -118,6 +128,9 @@ section.work {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2.5rem;
   margin-top: 2rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-item {
@@ -152,7 +165,6 @@ section.work {
 .section h2 {
   text-align: center;
   font-size: 2.5rem;
-
 }
 
 .section p {
