@@ -9,17 +9,34 @@ import './App.css';
 const About = () => (
   <section className="page about">
     <h2>About</h2>
-    <div className="about-content">
+    
+    <div className="about-row">
+      <div className="about-image">
+        <img src={`${import.meta.env.BASE_URL}images/profile1.jpg`} alt="Profile 1" />
+      </div>
       <div className="about-text">
         <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>
       </div>
+    </div>
 
-      <div className="about-gallery">
-        <img src={`${import.meta.env.BASE_URL}images/profile1.jpg`} alt="Profile 1" />
+    <div className="about-row reverse">
+      <div className="about-image">
         <img src={`${import.meta.env.BASE_URL}images/profile2.jpg`} alt="Profile 2" />
-        <img src={`${import.meta.env.BASE_URL}images/profile3.jpg`} alt="Profile 3" />
+      </div>
+      <div className="about-text">
+        <p>I'm passionate about creating visually appealing and user-friendly designs that effectively communicate messages and enhance user experiences.</p>
       </div>
     </div>
+
+    <div className="about-row">
+      <div className="about-image">
+        <img src={`${import.meta.env.BASE_URL}images/profile3.jpg`} alt="Profile 3" />
+      </div>
+      <div className="about-text">
+        <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>
+      </div>
+    </div>
+    
   </section>
 );
 

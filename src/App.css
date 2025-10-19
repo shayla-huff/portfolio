@@ -175,18 +175,47 @@ section.work {
   color: #555;
 }
 
-.about-content {
+.about {
+  background-color: #fff;
+  padding: 4rem 2rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-row {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 1000px;
-  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .about-text {
   flex: 1;
   min-width: 300px;
+  text-align: left;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .about-gallery {
