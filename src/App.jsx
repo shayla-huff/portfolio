@@ -6,6 +6,10 @@ import Footer from './Footer';
 import ContactForm from './ContactForm';
 import './App.css';
 
+import profile1 from "../assets/profile1.jpg";
+import profile2 from "../assets/profile2.jpg";
+import profile3 from "../assets/profile3.jpg";
+
 
 const About = () => (
   <section className="page about">
@@ -16,9 +20,9 @@ const About = () => (
       </div>
 
       <div className="about-gallery">
-        <img src="/images/profile1.jpg" alt="Profile 1" />
-        <img src="/images/profile2.jpg" alt="Profile 2" />
-        <img src="/images/profile3.jpg" alt="Profile 3" />
+        <img src={profile1} alt="Profile 1" />
+        <img src={profile2} alt="Profile 2" />
+        <img src={profile3} alt="Profile 3" />
       </div>
     </div>
   </section>
