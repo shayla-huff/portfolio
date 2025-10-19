@@ -282,4 +282,42 @@ footer {
   nav ul {
     gap: 1.5rem;
   }
+
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .about-gallery img {
+    max-width: 90%;
+  }
+
+  .about-row, .about-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 90%;
+  }
+
+  .contact-row, .contact-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
 }

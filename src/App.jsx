@@ -8,8 +8,7 @@ import './App.css';
 
 const About = () => (
   <section className="page about">
-    <h2>About</h2>
-    
+
     <div className="about-row">
       <div className="about-image">
         <img src={`${import.meta.env.BASE_URL}images/profile1.jpg`} alt="Profile 1" />
@@ -24,7 +23,7 @@ const About = () => (
         <img src={`${import.meta.env.BASE_URL}images/profile2.jpg`} alt="Profile 2" />
       </div>
       <div className="about-text">
-        <p>I'm passionate about creating visually appealing and user-friendly designs that effectively communicate messages and enhance user experiences.</p>
+        <p>I'm passionate about creating visually appealing and user-friendly designs that effectively communicate the right message and enhance user experiences.</p>
       </div>
     </div>
 
@@ -36,16 +35,22 @@ const About = () => (
         <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>
       </div>
     </div>
-    
+
   </section>
 );
 
 const Contact = () => (
   <section className="page contact">
-    <h2>Contact</h2>
-      <div>
+    <h2>Reach Out</h2>
+    <div className="contact-row">
+      <div className="contact-text">
+        <p>Have a project of collaboration in mind? Please fill out this contact form, or email me at shxylx221@gmail.com so we can discuss further!</p>
+      </div>
+
+      <div className="contact-form">
         <ContactForm />
       </div>
+    </div>
   </section>
 );
 
