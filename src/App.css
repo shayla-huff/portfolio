@@ -13,7 +13,6 @@ html, body {
 }
 
 body {
-  padding-top: 70px; /* to offset fixed header */
 }
 
 a {
@@ -72,7 +71,7 @@ section.page p {
 /* Intro */
 section.intro {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 2rem 0;
   display: flex;
   flex-direction: column;
