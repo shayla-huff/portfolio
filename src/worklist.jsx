@@ -9,7 +9,6 @@ const WorkList = () => {
 
     return (
         <section className="work">
-            <h2>Work</h2>
             <div className="work-grid">
                 {workItems.map(work => (
                     <WorkItems key={work.id} title={work.title} image={work.image} />
