@@ -10,7 +10,17 @@ import './App.css';
 const About = () => (
   <section className="page about">
     <h2>About</h2>
-    <p>Blah blah blah stuff about myself :P</p>
+    <div className="about-content">
+      <div className="about-text">
+        <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>
+      </div>
+
+      <div className="about-gallery">
+        <img src="/images/profile1.jpg" alt="Profile 1" />
+        <img src="/images/profile2.jpg" alt="Profile 2" />
+        <img src="/images/profile3.jpg" alt="Profile 3" />
+      </div>
+    </div>
   </section>
 );
 
