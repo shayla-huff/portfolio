@@ -6,6 +6,9 @@ import Footer from './Footer';
 import ContactForm from './ContactForm';
 import FerrisBueller from './pages/FerrisBueller';
 import IndependentStudy from './pages/IndependentStudy';
+import profile1 from './assets/profile1.jpg';
+import profile2 from './assets/profile2.jpg';
+import profile3 from './assets/profile3.jpg';
 import './App.css';
 
 const About = () => (
@@ -13,7 +16,7 @@ const About = () => (
 
     <div className="about-row">
       <div className="about-image">
-        <img src={`${import.meta.env.BASE_URL}images/profile1.jpg`} alt="Profile 1" />
+        <img src={profile1} alt="Profile 1" />
       </div>
       <div className="about-text">
         <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>
@@ -22,7 +25,7 @@ const About = () => (
 
     <div className="about-row reverse">
       <div className="about-image">
-        <img src={`${import.meta.env.BASE_URL}images/profile2.jpg`} alt="Profile 2" />
+        <img src={profile2} alt="Profile 2" />
       </div>
       <div className="about-text">
         <p>I'm passionate about creating visually appealing and user-friendly designs that effectively communicate the right message and enhance user experiences.</p>
@@ -31,7 +34,7 @@ const About = () => (
 
     <div className="about-row">
       <div className="about-image">
-        <img src={`${import.meta.env.BASE_URL}images/profile3.jpg`} alt="Profile 3" />
+        <img src={profile3} alt="Profile 3" />
       </div>
       <div className="about-text">
         <p>Hello! My name is Shayla Hufford. I'm a Web Programming & Design student at Purdue University seeking to work in graphic/web design after graduation.</p>

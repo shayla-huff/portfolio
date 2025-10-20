@@ -1,10 +1,10 @@
 import placeholder from './assets/placeholder.svg';
-import FerrisBueller from './pages/FerrisBueller';
+import FerrisImage from './assets/ferris-bueller.jpg';
 import WorkItems from './WorkItems';
 
 const WorkList = () => {
     const workItems = [
-        { id: 1, title: 'Ferris Bueller Poster', image: ferris-bueller, path: '/projects/ferris-bueller' },
+        { id: 1, title: 'Ferris Bueller Poster', image: FerrisImage, path: '/projects/ferris-bueller' },
         { id: 2, title: 'Independent Study', image: placeholder, path: '/projects/independent-study' },
     ];
 
