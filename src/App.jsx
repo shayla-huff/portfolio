@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Intro from './Intro';
 import WorkList from './WorkList';
@@ -61,7 +61,7 @@ const Contact = () => (
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
         <Routes>
           <Route path="/" element={
@@ -77,7 +77,7 @@ const App = () => {
           <Route path="/projects/independent-study" element={<IndependentStudy />} />
         </Routes>
       <Footer />
-    </Router>
+    </>
   );
 };
 
