@@ -7,5 +7,7 @@ const FerrisBueller = () => {
             <p>My goal was to advertise the adventurous, youthful vibe of the film through imagery of Chicago, singular shots of the main three cast members, and a cutout from the famous art museum scene.</p>
             <p><em>created for an assignment for CGT 118 at Purdue University</em></p>
         </section>
-    )
-}
+    );
+};
+
+export default FerrisBueller;

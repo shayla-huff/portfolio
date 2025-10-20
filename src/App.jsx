@@ -4,6 +4,7 @@ import Intro from './Intro';
 import WorkList from './WorkList';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
+import FerrisBueller from './pages/FerrisBueller';
 import './App.css';
 
 const About = () => (
@@ -69,6 +70,7 @@ const App = () => {
           <Route path="/about" element={<section className="page"><About /></section>} />
           <Route path="/contact" element={<section className="page"><Contact /></section>} />
           <Route path="/projects/ferris-bueller" element={<FerrisBueller />} />
+          <Route path="/projects/independent-study" element={<IndependentStudy />} />
         </Routes>
       <Footer />
     </Router>

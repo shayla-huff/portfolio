@@ -4,14 +4,14 @@ import WorkItems from './WorkItems';
 const WorkList = () => {
     const workItems = [
         { id: 1, title: 'Ferris Bueller Poster', image: placeholder, path: '/projects/ferris-bueller' },
-        { id: 2, title: 'Independent Study', image: placeholder },
+        { id: 2, title: 'Independent Study', image: placeholder, path: '/projects/independent-study' },
     ];
 
     return (
         <section className="work">
             <div className="work-grid">
                 {workItems.map(work => (
-                    <WorkItems key={work.id} id={work.id} title={work.title} image={work.image} />
+                    <WorkItems key={work.id} title={work.title} image={work.image} path={work.path} />
                 ))}
             </div>
         </section>
