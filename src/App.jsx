@@ -5,6 +5,7 @@ import WorkList from './WorkList';
 import Footer from './Footer';
 import ContactForm from './ContactForm';
 import FerrisBueller from './pages/FerrisBueller';
+import IndependentStudy from './pages/IndependentStudy';
 import './App.css';
 
 const About = () => (
