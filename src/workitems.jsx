@@ -1,8 +1,12 @@
-const WorkItems = ({ title, image }) => {
+import { Link } from "react-router-dom";
+
+const WorkItems = ({ title, image, path }) => {
     return (
         <div className="work-item">
-            <img src={image} alt={title} />
-            <h3>{title}</h3>
+            <link to={path}>
+                <img src={image} alt={title} />
+                <h3>{title}</h3>
+            </link>
         </div>
     );
 };
