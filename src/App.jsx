@@ -43,7 +43,7 @@ const Contact = () => (
   <section className="page contact">
     <h2>Reach Out</h2>
     <div className="contact-row">
-      <div className="contact-text" style="font-size: 1.2rem;">
+      <div className="contact-text">
         <p>Have a project of collaboration in mind? Please fill out this contact form, or email me at shxylx221@gmail.com so we can discuss further!</p>
       </div>
 
