@@ -122,7 +122,6 @@ section.work {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2.5rem;
-  margin-top: 2rem;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -256,6 +255,27 @@ button[type="submit"] {
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
+}
+
+/* Project Pages */
+.project-page {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center; 
+}
+
+.project-page img {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem 0;
+}
+
+.project-page p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
 }
 
 /* Footer */
