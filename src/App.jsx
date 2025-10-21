@@ -1,3 +1,4 @@
+import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Intro from './Intro';
@@ -9,7 +10,7 @@ import IndependentStudy from './pages/IndependentStudy';
 import profile1 from './assets/profile1.jpg';
 import profile2 from './assets/profile2.jpg';
 import profile3 from './assets/profile3.jpg';
-import './App.css';
+
 
 const About = () => (
   <section className="page about">
