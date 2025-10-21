@@ -114,7 +114,7 @@ section.work {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   background-color: #fff;
-  padding: 1rem 0;
+  padding: 0 1rem 1rem;
   text-align: center; 
 }
 
