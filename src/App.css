@@ -307,7 +307,7 @@ footer {
 
 /* Responsive */
 
-@media (max-width: 1200px) and (min-width: 769px) {
+@media (max-width: 1300px) and (min-width: 769px) {
   .about-row {
     gap: 2rem;
   }
